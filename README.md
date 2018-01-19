@@ -76,3 +76,7 @@ The content of the file after the command. Web sources retrieved from [https://n
 - [Parsing HTML: A Guide to Select the Right Library](https://tomassetti.me/parsing-html/#nodejs)
 - [Getting starting with web scraping in node.js](https://scotch.io/tutorials/scraping-the-web-with-node-js)
 - [fs-extra](https://www.npmjs.com/package/fs-extra)
+
+## Solution
+
+[https://github.com/1dv023/exercise-promising-web-scraper-SOLUTION](https://github.com/1dv023/exercise-promising-web-scraper-SOLUTION)
