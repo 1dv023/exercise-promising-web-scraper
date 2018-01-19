@@ -13,7 +13,7 @@ JavaScript has a number of new features that can be useful; especially [Set](htt
 Example of command line to run the application.
 
 ```shell
-\$ node app.js https://nodejs.org/en/ https://developer.mozilla.org/en-US/
+$ node app.js https://nodejs.org/en/ https://developer.mozilla.org/en-US/
 ```
 
 The content of the file after the command. Web sources retrieved from [https://nodejs.org/en/](https://nodejs.org/en/) and [https://developer.mozilla.org/en-US/](https://developer.mozilla.org/en-US/). [19 January 2018]
