@@ -2,7 +2,7 @@
 
 In this exercise, you are going to create a web scraper, i.e. a program that to some extent acts as a web browser.
 
-The program will request pages from web servers, extract the links and write the URLs to the web sources to a file in JSON format. Pass the starting URLs as command line arguments. It is only extracted links with absolute URLs that are interesting and relative can be ignored. The file must not contain any duplicated URLs and be sure to sort the URLs in ascending order.
+The program will request pages from web servers, extract the links and write the URLs to the web sources to a file in JSON format. Pass the URLs to scrape as command line arguments. It is only extracted links with absolute URLs that are interesting and relative can be ignored. The file must not contain any duplicated URLs and be sure to sort the URLs in ascending order.
 
 To avoid “callback hell” you are obliged to use promises instead of callback functions. You may need to “promisify” one or another API function to avoid callbacks.
 
