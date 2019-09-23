@@ -6,14 +6,14 @@ The program will request pages from web servers, extract the links and write the
 
 To avoid “callback hell” you are obliged to use promises instead of callback functions. You may need to “promisify” one or another API function to avoid callbacks.
 
-JavaScript has sevral features that can be useful; especially [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set) is handy to collect unique values. For the JSON data to be easy to read make sure it’s “prettified” before writing it to the file.
+JavaScript has several features that can be useful; especially [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set) is handy to collect unique values. For the JSON data to be easy to read make sure it’s “prettified” before writing it to the file.
 
 ## Example use and output
 
-Example of command line to run the application.
+Example of the command line to run the application.
 
 ```shell
-$ npm start https://nodejs.org/en/ https://developer.mozilla.org/en-US/
+npm start https://nodejs.org/en/ https://developer.mozilla.org/en-US/
 ```
 
 The content of the file after the command. Web sources retrieved from [https://nodejs.org/en/](https://nodejs.org/en/) and [https://developer.mozilla.org/en-US/](https://developer.mozilla.org/en-US/). [19 January 2018]
